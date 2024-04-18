@@ -2,6 +2,7 @@ import React from 'react'
 import Account from './components/Account'
 import Bonus from './components/Bonus'
 import Rewards from './components/Rewards'
+import Score from './components/CricketScore'
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Bonus></Bonus>
       <br/><br/>
       <Rewards></Rewards>
+      <br/><br/>
+      <Score></Score>
     </div>
   )
 }
