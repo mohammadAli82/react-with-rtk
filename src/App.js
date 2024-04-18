@@ -7,7 +7,9 @@ function App() {
   return (
     <div>
       <Account></Account>
+      <br/><br/>
       <Bonus></Bonus>
+      <br/><br/>
       <Rewards></Rewards>
     </div>
   )
