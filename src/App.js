@@ -3,6 +3,7 @@ import Account from './components/Account'
 import Bonus from './components/Bonus'
 import Rewards from './components/Rewards'
 import Score from './components/CricketScore'
+import Admin from './components/Admin'
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Rewards></Rewards>
       <br/><br/>
       <Score></Score>
+      <br></br>
+      <Admin></Admin>
+      
     </div>
   )
 }
